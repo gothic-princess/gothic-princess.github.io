@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    font-family: "League Gothic", sans-serif;
+    justify-items: center;
+}
+header .header-info {
+    padding: 0.3rem;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+main {
+    width: 90%;
+    align-self: center;
+}
+main h1 {
+    text-align: center;
+    font-size: 1.9rem;
+}
+main p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+.nav-link {
+    display: block;
+    color: black;
+    font-weight: bold;
+    transition: all 0.12s linear;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+}
+.nav-link:hover {
+    transform: scale(1.1);
+}
+

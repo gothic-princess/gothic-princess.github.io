@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    height: 100vh;
+    font-family: "League Gothic", sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr minmax(60px, auto);
+}
+
+header {
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    margin-top: 0.5rem;
+}
+.logo-link svg {
+    width: 150px;
+    height: 150px;
+    transition: 0.3s all;
+}
+.logo-link svg:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 3px rgb(43, 91, 249));
+}
+.logo-link:focus {
+    filter: drop-shadow(0px 0px 3px rgb(43, 91, 249));
+    outline: none;
+}
+
+main {
+    align-self: start;
+    justify-self: center;
+    padding: 0 0.5rem;
+}
+section h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+section p {
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+footer {
+    align-self: center;
+    justify-self: center;
+}
+.nav-link {
+    display: block;
+    color: black;
+    font-weight: bold;
+    transition: all 0.12s linear;
+    text-transform: uppercase;
+    /* margin-bottom: 1.25rem; */
+    font-size: 1.25rem;
+}
+.nav-link:hover {
+    transform: scale(1.1);
+}
