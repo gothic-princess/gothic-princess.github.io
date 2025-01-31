@@ -43,7 +43,7 @@ footer {
     align-self: center;
 }
 .form {
-    justify-self: center;
+  /*  justify-self: center; */
     row-gap: 0.625rem;
     display: grid;
 }
