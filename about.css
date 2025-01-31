@@ -18,6 +18,9 @@ header .header-info {
     font-size: 1.4rem;
     letter-spacing: 1px;
 }
+header div {
+    text-align: center;
+}
 main {
     width: 90%;
     align-self: center;
