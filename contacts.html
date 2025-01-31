@@ -20,10 +20,11 @@
         </div>
     </header>
     <main>
-        <form action="#" method="post" name="goth-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="443fe393-e608-4598-9de5-752012f7a14a">
             <div class="form">
-          <input type="email" name="mail" placeholder="You email">
-          <textarea placeholder="Your message is for me"></textarea>
+          <input type="email" name="mail" placeholder="You email" required>
+          <textarea name="message" placeholder="Your message is for me" required></textarea>
           <input type="submit" value="Submit">
         </div>
         </form>
