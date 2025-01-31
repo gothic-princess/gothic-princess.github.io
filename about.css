@@ -20,6 +20,7 @@ header .header-info {
 }
 header div {
     text-align: center;
+    font-size: 1.6rem;
 }
 main {
     width: 90%;
